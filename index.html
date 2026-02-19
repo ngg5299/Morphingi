@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <meta property="og:title" content="🎂 유병현 과장님 생일 파티에 초대합니다!">
+    <meta property="og:title" content="🎂 유병현 팀장님 생일 파티에 초대합니다!">
     <meta property="og:description" content="거절은 거절한다. 지금 바로 참석 버튼을 눌러 축하해주세요!">
     <meta property="og:image" content="image_84cc38.png"> <title>유병현 과장님 생일 파티 초대장</title>
     
@@ -86,7 +86,7 @@
         const declineBtn = document.getElementById('btn-decline');
         
         // 버튼이 너무 멀리 가지 않도록 제한 (픽셀 단위)
-        const MAX_MOVE = 150; 
+        const MAX_MOVE = 300; 
 
         function showToast(msg, bgClass = 'bg-gray-800') {
             toast.textContent = msg;
@@ -104,7 +104,7 @@
                 colors: ['#22c55e', '#ef4444', '#facc15', '#3b82f6', '#ec4899']
             });
 
-            showToast("탁월한 선택입니다! 선물 준비 잊지 마세요! 🎁", "bg-green-600");
+            showToast("탁월한 선택입니다! 환영해요!", "bg-green-600");
             calendarLink.classList.remove('hidden');
             
             // 수락하면 거절 버튼 숨김 (깔끔하게)
